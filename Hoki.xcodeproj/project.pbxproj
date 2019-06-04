@@ -7,10 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD13C3D521BD0F8D00198C3D /* Source in Resources */ = {isa = PBXBuildFile; fileRef = BD13C3D421BD0F8D00198C3D /* Source */; };
+		BD6A952020C793690041F66E /* ffitarget_arm64.h in Headers */ = {isa = PBXBuildFile; fileRef = BD6A951520C793690041F66E /* ffitarget_arm64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD6A952120C793690041F66E /* ffitarget.h in Headers */ = {isa = PBXBuildFile; fileRef = BD6A951620C793690041F66E /* ffitarget.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD6A952220C793690041F66E /* ffi_arm.h in Headers */ = {isa = PBXBuildFile; fileRef = BD6A951720C793690041F66E /* ffi_arm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD6A952320C793690041F66E /* ffi_i386.h in Headers */ = {isa = PBXBuildFile; fileRef = BD6A951820C793690041F66E /* ffi_i386.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD6A952420C793690041F66E /* ffitarget_x86_64.h in Headers */ = {isa = PBXBuildFile; fileRef = BD6A951920C793690041F66E /* ffitarget_x86_64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD6A952520C793690041F66E /* ffi_x86_64.h in Headers */ = {isa = PBXBuildFile; fileRef = BD6A951A20C793690041F66E /* ffi_x86_64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD6A952620C793690041F66E /* ffitarget_arm.h in Headers */ = {isa = PBXBuildFile; fileRef = BD6A951B20C793690041F66E /* ffitarget_arm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD6A952720C793690041F66E /* ffitarget_i386.h in Headers */ = {isa = PBXBuildFile; fileRef = BD6A951C20C793690041F66E /* ffitarget_i386.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD6A952820C793690041F66E /* libffi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD6A951D20C793690041F66E /* libffi.a */; };
+		BD6A952920C793690041F66E /* ffi.h in Headers */ = {isa = PBXBuildFile; fileRef = BD6A951E20C793690041F66E /* ffi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD6A952A20C793690041F66E /* ffi_arm64.h in Headers */ = {isa = PBXBuildFile; fileRef = BD6A951F20C793690041F66E /* ffi_arm64.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BDE80F3520C6B9860062B6C7 /* Hoki.h in Headers */ = {isa = PBXBuildFile; fileRef = BDE80F3320C6B9860062B6C7 /* Hoki.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD13C3D421BD0F8D00198C3D /* Source */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Source; sourceTree = "<group>"; };
+		BD6A951520C793690041F66E /* ffitarget_arm64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget_arm64.h; sourceTree = "<group>"; };
+		BD6A951620C793690041F66E /* ffitarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget.h; sourceTree = "<group>"; };
+		BD6A951720C793690041F66E /* ffi_arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_arm.h; sourceTree = "<group>"; };
+		BD6A951820C793690041F66E /* ffi_i386.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_i386.h; sourceTree = "<group>"; };
+		BD6A951920C793690041F66E /* ffitarget_x86_64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget_x86_64.h; sourceTree = "<group>"; };
+		BD6A951A20C793690041F66E /* ffi_x86_64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_x86_64.h; sourceTree = "<group>"; };
+		BD6A951B20C793690041F66E /* ffitarget_arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget_arm.h; sourceTree = "<group>"; };
+		BD6A951C20C793690041F66E /* ffitarget_i386.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget_i386.h; sourceTree = "<group>"; };
+		BD6A951D20C793690041F66E /* libffi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libffi.a; sourceTree = "<group>"; };
+		BD6A951E20C793690041F66E /* ffi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi.h; sourceTree = "<group>"; };
+		BD6A951F20C793690041F66E /* ffi_arm64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_arm64.h; sourceTree = "<group>"; };
 		BDE80F3020C6B9860062B6C7 /* Hoki.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Hoki.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDE80F3320C6B9860062B6C7 /* Hoki.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hoki.h; sourceTree = "<group>"; };
 		BDE80F3420C6B9860062B6C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -21,12 +45,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD6A952820C793690041F66E /* libffi.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD6A951420C793690041F66E /* libffi */ = {
+			isa = PBXGroup;
+			children = (
+				BD6A951520C793690041F66E /* ffitarget_arm64.h */,
+				BD6A951620C793690041F66E /* ffitarget.h */,
+				BD6A951720C793690041F66E /* ffi_arm.h */,
+				BD6A951820C793690041F66E /* ffi_i386.h */,
+				BD6A951920C793690041F66E /* ffitarget_x86_64.h */,
+				BD6A951A20C793690041F66E /* ffi_x86_64.h */,
+				BD6A951B20C793690041F66E /* ffitarget_arm.h */,
+				BD6A951C20C793690041F66E /* ffitarget_i386.h */,
+				BD6A951D20C793690041F66E /* libffi.a */,
+				BD6A951E20C793690041F66E /* ffi.h */,
+				BD6A951F20C793690041F66E /* ffi_arm64.h */,
+			);
+			path = libffi;
+			sourceTree = "<group>";
+		};
 		BDE80F2620C6B9860062B6C7 = {
 			isa = PBXGroup;
 			children = (
@@ -46,6 +89,8 @@
 		BDE80F3220C6B9860062B6C7 /* Hoki */ = {
 			isa = PBXGroup;
 			children = (
+				BD13C3D421BD0F8D00198C3D /* Source */,
+				BD6A951420C793690041F66E /* libffi */,
 				BDE80F3320C6B9860062B6C7 /* Hoki.h */,
 				BDE80F3420C6B9860062B6C7 /* Info.plist */,
 			);
@@ -60,6 +105,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDE80F3520C6B9860062B6C7 /* Hoki.h in Headers */,
+				BD6A952920C793690041F66E /* ffi.h in Headers */,
+				BD6A952720C793690041F66E /* ffitarget_i386.h in Headers */,
+				BD6A952520C793690041F66E /* ffi_x86_64.h in Headers */,
+				BD6A952620C793690041F66E /* ffitarget_arm.h in Headers */,
+				BD6A952220C793690041F66E /* ffi_arm.h in Headers */,
+				BD6A952420C793690041F66E /* ffitarget_x86_64.h in Headers */,
+				BD6A952320C793690041F66E /* ffi_i386.h in Headers */,
+				BD6A952120C793690041F66E /* ffitarget.h in Headers */,
+				BD6A952020C793690041F66E /* ffitarget_arm64.h in Headers */,
+				BD6A952A20C793690041F66E /* ffi_arm64.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +176,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD13C3D521BD0F8D00198C3D /* Source in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +306,7 @@
 		BDE80F3920C6B9860062B6C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -257,9 +314,17 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 				INFOPLIST_FILE = Hoki/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Hoki/libffi",
+				);
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = tv.danmaku.kfptbf.Hoki;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -270,6 +335,7 @@
 		BDE80F3A20C6B9860062B6C7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -277,9 +343,16 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 				INFOPLIST_FILE = Hoki/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Hoki/libffi",
+				);
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = tv.danmaku.kfptbf.Hoki;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;

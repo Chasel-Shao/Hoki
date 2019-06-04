@@ -16,4 +16,8 @@ FOUNDATION_EXPORT const unsigned char HokiVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <Hoki/PublicHeader.h>
 
-
+#import <Hoki/BlockHook.h>
+#import <Hoki/SelectorType.h>
+#import <Hoki/SelectorHookLibffi.h>
+#import <Hoki/SelectorHookForward.h>
+#import <Hoki/BlockMethodSignature.h>
