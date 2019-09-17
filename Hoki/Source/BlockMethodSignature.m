@@ -141,7 +141,7 @@ extern "C" {
 {
     self = [super init];
     if (self) {
-        NSAssert(YES, @"please the factory method");
+        NSAssert(YES, @"please use the factory method");
     }
     return self;
 }
